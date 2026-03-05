@@ -1,4 +1,4 @@
-package io.github.wkktoria.githubapp;
+package io.github.wkktoria.githubapp.infrastructure.controller.dto;
 
 import java.util.List;
 

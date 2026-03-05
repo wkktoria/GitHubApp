@@ -1,6 +1,11 @@
-package io.github.wkktoria.githubapp;
+package io.github.wkktoria.githubapp.domain.service;
 
 import feign.FeignException;
+import io.github.wkktoria.githubapp.infrastructure.controller.dto.BranchResponseDto;
+import io.github.wkktoria.githubapp.infrastructure.controller.dto.NonForkRepoResponseDto;
+import io.github.wkktoria.githubapp.domain.proxy.dto.RepoBranchResponseDto;
+import io.github.wkktoria.githubapp.UserNotFoundException;
+import io.github.wkktoria.githubapp.domain.proxy.GitHubClient;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

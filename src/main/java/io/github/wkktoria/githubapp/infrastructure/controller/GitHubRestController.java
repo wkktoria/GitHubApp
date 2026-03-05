@@ -1,5 +1,7 @@
-package io.github.wkktoria.githubapp;
+package io.github.wkktoria.githubapp.infrastructure.controller;
 
+import io.github.wkktoria.githubapp.infrastructure.controller.dto.NonForkRepoResponseDto;
+import io.github.wkktoria.githubapp.domain.service.RepoRetriever;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
