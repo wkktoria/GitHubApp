@@ -26,7 +26,7 @@ public class RepoRetriever {
                     .map(repo -> {
                         List<RepoBranchResponseDto> branches = gitHubClient.getRepoBranches(username, repo.name());
                         List<BranchResponseDto> branchDtos = branches.stream()
-                                .map(branch -> new BranchResponseDto(branch.name(), branch.commit().sha()))
+                                .map(RepoMapper::mapRepoBranchResponseDtoToBranchResponseDto)
                                 .toList();
 
                         return new NonForkRepoResponseDto(
