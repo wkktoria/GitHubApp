@@ -1,5 +1,6 @@
-package io.github.wkktoria.githubapp;
+package io.github.wkktoria.githubapp.infrastructure.controller;
 
+import io.github.wkktoria.githubapp.domain.error.UserNotFoundException;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

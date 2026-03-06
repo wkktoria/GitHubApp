@@ -1,7 +1,7 @@
-package io.github.wkktoria.githubapp.domain.proxy;
+package io.github.wkktoria.githubapp.infrastructure.proxy;
 
-import io.github.wkktoria.githubapp.domain.proxy.dto.RepoBranchResponseDto;
-import io.github.wkktoria.githubapp.domain.proxy.dto.UserRepoResponseDto;
+import io.github.wkktoria.githubapp.infrastructure.proxy.dto.RepoBranchResponseDto;
+import io.github.wkktoria.githubapp.infrastructure.proxy.dto.UserRepoResponseDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

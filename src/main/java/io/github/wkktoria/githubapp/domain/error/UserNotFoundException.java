@@ -1,4 +1,4 @@
-package io.github.wkktoria.githubapp;
+package io.github.wkktoria.githubapp.domain.error;
 
 public class UserNotFoundException extends RuntimeException {
 
