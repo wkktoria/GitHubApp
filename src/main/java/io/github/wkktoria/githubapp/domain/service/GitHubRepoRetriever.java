@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class RepoRetriever {
+public class GitHubRepoRetriever {
 
     private final GitHubClient gitHubClient;
 
-    RepoRetriever(GitHubClient gitHubClient) {
+    GitHubRepoRetriever(GitHubClient gitHubClient) {
         this.gitHubClient = gitHubClient;
     }
 
